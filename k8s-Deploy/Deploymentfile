@@ -1,0 +1,34 @@
+kind: Deployment
+apiVersion: apps/v1
+
+metadata:
+  name: onlineshop-deployment
+  namespace: onlineshop-ns
+  labels:
+    app: onlineshop
+
+
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: onlineshop
+
+
+  template:
+
+      metadata:
+         name: onlineshop-pod
+         namespace: onlineshop-ns
+         labels:
+           app: onlineshop
+
+      spec:
+         containers:
+         - name: onlineshop-container
+           image: learnersubha/online-shop-image:latest
+           ports:
+           - containerPort: 5173
+~                                                                                                                                                                                       
+~                                                                                                                                                                                       
+~                                        
