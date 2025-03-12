@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: onlineshop-pod
+  namespace: onlineshop-ns
+
+spec:
+  containers:
+  - name: onlineshop-container
+    image: learnersubha/online-shop-image:latest
+    ports:
+    - containerPort: 5173
+~                                                                                                                                                                                       
+~                                 
