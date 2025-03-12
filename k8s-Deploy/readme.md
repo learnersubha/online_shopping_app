@@ -40,7 +40,7 @@ Move-Item .\kind-windows-amd64.exe c:\some-dir-in-your-PATH\kind.exe
  If you want cluster creating .yaml file click:-> https://github.com/learnersubha/online_shopping_app/blob/master/k8s-Deploy/clusterfile
  
  After creating cluster create a namespace, it is a  mechanism to organize and isolate groups of resources within a single cluster
- namespace.yaml:->
+ namespace.yaml:-> https://github.com/learnersubha/online_shopping_app/blob/master/k8s-Deploy/Namespacefile
  
  Now creayte a pod. Pod is the smallest deployable units of computing that you can create and manage in Kubernetes
  pod.yaml:-> https://github.com/learnersubha/online_shopping_app/blob/master/k8s-Deploy/Podfile
