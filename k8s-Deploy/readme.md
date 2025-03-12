@@ -43,7 +43,7 @@ Move-Item .\kind-windows-amd64.exe c:\some-dir-in-your-PATH\kind.exe
  namespace.yaml:->
  
  Now creayte a pod. Pod is the smallest deployable units of computing that you can create and manage in Kubernetes
- pod.yaml:->
+ pod.yaml:-> https://github.com/learnersubha/online_shopping_app/blob/master/k8s-Deploy/Podfile
  
 After creating pod create deployment for scaling. A Deployment manages a set of Pods to run an application workload,
  deployment.yaml:- https://github.com/learnersubha/online_shopping_app/blob/master/k8s-Deploy/Deploymentfile>
